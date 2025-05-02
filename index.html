@@ -1,0 +1,128 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contur</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            background: #fff;
+            color: #111;
+        }
+        header, footer {
+            background: #f5f5f5;
+            padding: 20px;
+            text-align: center;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #003366;
+            font-weight: bold;
+        }
+        section {
+            padding: 40px 20px;
+            max-width: 960px;
+            margin: auto;
+        }
+        .services, .benefits {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+        .card {
+            flex: 1 1 200px;
+            background: #f9f9f9;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 20px;
+            text-align: center;
+        }
+        .contact, .form {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: space-between;
+        }
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0;
+        }
+        button {
+            padding: 10px 20px;
+            background: #003366;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>CONTUR</h1>
+    <nav>
+        <a href="#about">О нас</a>
+        <a href="#services">Услуги</a>
+        <a href="#benefits">Преимущества</a>
+        <a href="#contacts">Контакты</a>
+    </nav>
+</header>
+
+<section id="about">
+    <h2>О нас</h2>
+    <p>Профессионалы в комплексных ремонтах и отделке квартир в Ташкенте.</p>
+</section>
+
+<section id="services">
+    <h2>Услуги</h2>
+    <div class="services">
+        <div class="card">Ремонт квартир</div>
+        <div class="card">Ремонт офисов</div>
+        <div class="card">Ремонт ванных</div>
+        <div class="card">Ремонт кухонь</div>
+    </div>
+</section>
+
+<section id="benefits">
+    <h2>Преимущества</h2>
+    <div class="benefits">
+        <div class="card">Большой опыт</div>
+        <div class="card">Качество</div>
+        <div class="card">Надежность</div>
+        <div class="card">Портфолио</div>
+    </div>
+</section>
+
+<section id="contacts">
+    <h2>Контакты</h2>
+    <div class="contact">
+        <div>
+            <p><strong>Телефон:</strong> +998 90 8279993</p>
+            <p><strong>Город:</strong> Ташкент</p>
+            <p><strong>Instagram:</strong> <a href="https://www.instagram.com/contur.uz" target="_blank">contur.uz</a></p>
+        </div>
+        <div class="form">
+            <form>
+                <input type="text" placeholder="Имя" required />
+                <input type="tel" placeholder="Телефон" required />
+                <textarea placeholder="Сообщение"></textarea>
+                <button type="submit">Отправить</button>
+            </form>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2025 Contur. Все права защищены.</p>
+</footer>
+
+</body>
+</html>
